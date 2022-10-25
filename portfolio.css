@@ -12,9 +12,8 @@ hr {
     background-color: #333;
     border: 1px solid #333;
     height: 1px;
-    width: 21.5%;
+    width: 15%;
     border-radius: 5px;
-
 }
 
 
@@ -59,12 +58,12 @@ body {
     justify-content: center;
 }
 
-#home p{
+#home p {
     font-size: 20px;
     font-style: italic
 }
 
-#aboutMe p{
+#aboutMe p {
     text-align: left;
 }
 
@@ -99,49 +98,27 @@ body {
 
 }
 
-.column-quarter ul li{
+.column-quarter ul li {
     list-style-position: inside;
     text-align: left;
 }
 
 .vertical-center-container {
     display: flex;
-    flex-direction: column;  /* make main axis vertical */
+    flex-direction: column; /* make main axis vertical */
     justify-content: center; /* center items vertically, in this case */
     align-items: center;
     height: 100%;
 }
 
-.vertical-center-item{
+.vertical-center-item {
     width: 300px;
     margin: 5px;
     text-align: center;
 }
 
-.text-width-75 {
-    /*margin: 0 12.5%;*/
-}
-
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background-color: #333;
-}
-
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-
-    background: gray;
-    color: white;
-}
-
 input, textarea {
-    width: 99%;
+    width: 50%;
     padding: 12px;
     border: 1px solid #333;
     border-radius: 10px;
@@ -163,11 +140,28 @@ input[type=submit] {
     border-radius: 10px;
     cursor: pointer;
 
-
 }
 
 input[type=submit]:hover {
     color: #333;
     background-color: white;
     border: 3px solid #333;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+
+    background: gray;
+    color: white;
 }
